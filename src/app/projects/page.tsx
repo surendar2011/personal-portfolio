@@ -1,5 +1,11 @@
 import React from 'react';
 import ProjectCard from '../components/ProjectCard';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Projects",
+  description: "Explore my portfolio of web development projects including e-commerce platforms, task management apps, weather dashboards, and social media analytics tools.",
+};
 
 const ProjectsPage = () => {
     const projects = [

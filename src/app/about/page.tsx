@@ -1,5 +1,10 @@
-
 import React from "react";
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "About Me",
+  description: "Learn more about Surendar S, a passionate Full Stack Developer with expertise in React, Next.js, Node.js, and modern web technologies.",
+};
 
 const AboutPage = () => (
     <section className="max-w-2xl mx-auto p-4">
