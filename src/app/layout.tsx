@@ -74,10 +74,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Header /> 
-        <main className="p-4">{children}</main>
-        <footer className="text-center p-4">
-          <p className="text-sm text-gray-500">Copyright 2025 My Portfolio. All rights reserved.</p>
-        </footer>
+        <main>{children}</main>
       </body>
     </html>
   );
