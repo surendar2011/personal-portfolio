@@ -40,8 +40,8 @@ const ProjectsPage = () => {
     ];
 
     return (
-        <section className="max-w-6xl mx-auto p-4">
-            <h1 className="text-3xl font-bold mb-8 text-center">My Projects</h1>
+        <section className="max-w-6xl mx-auto p-4 min-h-screen bg-white dark:bg-gray-900">
+            <h1 className="text-3xl font-bold mb-8 text-center text-gray-900 dark:text-white">My Projects</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {projects.map((project, index) => (
                     <ProjectCard
